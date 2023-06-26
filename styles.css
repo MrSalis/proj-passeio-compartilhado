@@ -1,0 +1,200 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: 100%;
+}
+
+header {
+    margin: 47px 0 178px 42px;
+}
+
+main {
+    margin-left: 121px;
+}
+
+.link-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.button-reader {
+    cursor: pointer;
+    background: #6FBF44;
+    border-radius: 6px;
+    Width: 124px;
+    Height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    color: #FFFFFF;
+    left: 28px;
+    top: 13px;
+
+}
+
+.logo-img {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+section {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+div {
+    display: inline-block;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 62px;
+    color: #161A49;
+    display: inline-block;
+    margin-right: 4px;
+
+}
+
+h2::after {
+
+    content: "📍";
+
+}
+
+.parágrafo-1 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+    color: #000206;
+    width: 493px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.parágrafo-2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    color: #000206;
+    margin-top: 10px;
+    margin-bottom: 55px;
+
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+.google-play {
+    width: 150px;
+    border: none;
+}
+
+.app-store {
+    width: 150px;
+    border: none;
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+    body {
+        background: #FFFFFF;
+    }
+
+    header {
+        margin: 120px 0 0 0;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button-reader {
+        position: absolute;
+        height: 31px;
+        width: 91px;
+        margin: 17px 0 0 60%;
+        border-radius: 6px;
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    main {
+        display: contents;
+        top: 15px;
+    }
+
+
+    h1 {
+        position: relative;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        margin-left: 15%;
+        display: block;
+        width: 278px;
+        height: 60px;
+    }
+
+    .parágrafo-1 {
+        font-size: 15px;
+        font-weight: 400;
+        width: 304px;
+        height: 165px;
+        position: relative;
+        text-align: center;
+        margin: 30px 40px;
+        display: block;
+        left: auto;
+    }
+
+    .app {
+        position: relative;
+        margin-top: 20%;
+        margin-left: 13%;
+        display: block;
+    }
+
+
+    .logo-img {
+        height: 250px;
+        width: 200px;
+        margin-left: 25%;
+        position: fixed;
+        margin-top: 105%;
+       
+    }
+
+    div {
+        display: none;
+    }
+
+}
